@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $padding;
+  border-bottom: 1px solid $color-borde;
+  position: sticky;
+  top: 0;
+  background: $color-bg;
+  z-index: 10;
+
+  .logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .search {
+    flex: 1;
+    margin: 0 16px;
+
+    input {
+      width: 100%;
+      padding: 8px 12px;
+      border: 1px solid $color-borde;
+      border-radius: 20px;
+    }
+  }
+
+  .perfil {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+}

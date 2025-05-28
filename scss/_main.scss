@@ -1,0 +1,36 @@
+nav {
+  padding: $padding;
+  border-bottom: 1px solid $color-borde;
+  background-color: #f8f8f8;
+  display: flex;
+  gap: 20px;
+  font-size: 0.9rem;
+
+  a {
+    text-decoration: none;
+    color: $color-text;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.resultados {
+  padding: $padding;
+
+  .resultado {
+    padding: 12px 0;
+    border-bottom: 1px solid $color-borde;
+
+    h3 {
+      color: #1a0dab;
+      font-size: 1rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+      color: #4d5156;
+    }
+  }
+}

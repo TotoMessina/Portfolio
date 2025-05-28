@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Buscador - GitHub</title>
+  <link rel="stylesheet" href="/scss/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Google</div>
+    <div class="search"><input type="text" placeholder="Buscar..."></div>
+    <div class="perfil"><img src="https://via.placeholder.com/32" alt="Perfil" /></div>
+  </header>
+
+  <nav>
+    <a href="#">Todo</a>
+    <a href="#">Imágenes</a>
+    <a href="#">Videos</a>
+    <a href="#">Noticias</a>
+    <a href="#">Más</a>
+  </nav>
+
+  <div class="container">
+    <main>
+      <div class="resultados">
+        <div class="resultado">
+          <h3>GitHub - Build and ship software...</h3>
+          <p>Millions of developers and businesses...</p>
+        </div>
+        <!-- Más resultados -->
+      </div>
+    </main>
+
+    <aside>
+      <div class="tarjeta">
+        <h4>About Me</h4>
+        <img src="" alt="Foto Personal">
+        <p>Soy un estudiante de ingeniería informática de Argentina con un fuerte interés en el desarrollo web, los sistemas inteligentes y la creación de proyectos creativos e interactivos. Me gusta aprender haciendo, trabajar en proyectos reales y enfrentarme constantemente a nuevos desafíos tecnológicos. <a href="">Curriculum Vitae</a> </p>
+        <p><strong>Nacimiento:</strong> 3 de febrero 2003 (<span id="edad">edad</span> años), Buenos Aires Argentina</p>
+        <p><strong>Educacion: </strong>Universidad Nacional de La Matanza (2023 - actualidad)</p>
+        <h3>Perfiles</h3>
+        <ul>
+          <li><a href="https://github.com/TotoMessina" target="_blank"><img src="/img/github.png" alt="GitHub" width="30"></a></li>
+          <li><a href="" target="_blank"><img src="/img/linkedin.png" alt="LinkedIn" width="30"></a></li>
+          <li><a href="" target="_blank"><img src="/img/instagram.png" alt="Instagram" width="30"></a></li>
+          <li><a href="" target="_blank"><img src="/img/facebook.png" alt="Facebook" width="30"></a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+    <script>
+        function calcularEdad(fechaNacimiento) {
+            const hoy = new Date();
+            const nacimiento = new Date(fechaNacimiento);
+            let edad = hoy.getFullYear() - nacimiento.getFullYear();
+            const mes = hoy.getMonth() - nacimiento.getMonth();
+            
+            if (mes < 0 || (mes === 0 && hoy.getDate() < nacimiento.getDate())) {
+            edad--;
+            }
+            
+            return edad;
+        }
+
+        const fechaNacimiento = '2003-02-03';
+
+        document.getElementById('edad').textContent = calcularEdad(fechaNacimiento);
+    </script>
+</body>
+</html>

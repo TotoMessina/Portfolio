@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #222;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+  gap: 16px;
+}
+
+main {
+  flex: 1;
+}
+
+aside {
+  width: 350px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 10;
+}
+header .logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+header .search {
+  flex: 1;
+  margin: 0 16px;
+}
+header .search input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+}
+header .perfil {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+nav {
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+  background-color: #f8f8f8;
+  display: flex;
+  gap: 20px;
+  font-size: 0.9rem;
+}
+nav a {
+  text-decoration: none;
+  color: #222;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+.resultados {
+  padding: 16px;
+}
+.resultados .resultado {
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+.resultados .resultado h3 {
+  color: #1a0dab;
+  font-size: 1rem;
+}
+.resultados .resultado p {
+  font-size: 0.9rem;
+  color: #4d5156;
+}
+
+aside {
+  background-color: #f9f9f9;
+  padding: 16px;
+  border-left: 1px solid #ddd;
+  font-size: 0.9rem;
+}
+aside .tarjeta {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+aside .tarjeta h4 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+aside .tarjeta p {
+  line-height: 1.4;
+}
+aside .tarjeta ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 8px;
+}
+aside .tarjeta ul li {
+  margin-bottom: 8px;
+}
+aside .tarjeta ul li:last-child {
+  margin-bottom: 0;
+}
+aside .tarjeta a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+aside .tarjeta a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
