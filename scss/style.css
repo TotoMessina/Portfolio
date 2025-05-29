@@ -11,7 +11,8 @@ body {
 }
 
 .container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 60% 40%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 16px;
@@ -23,7 +24,8 @@ main {
 }
 
 aside {
-  width: 350px;
+  width: 100%;
+  height: auto;
 }
 
 header {
@@ -37,9 +39,24 @@ header {
   background: #fff;
   z-index: 10;
 }
+header .g-blue {
+  color: #4285F4;
+}
+header .g-red {
+  color: #EA4335;
+}
+header .g-yellow {
+  color: #FBBC05;
+}
+header .g-green {
+  color: #34A853;
+}
 header .logo {
   font-weight: bold;
   font-size: 1.2rem;
+}
+header .logo a {
+  text-decoration: none;
 }
 header .search {
   flex: 1;
@@ -80,14 +97,39 @@ nav a:hover {
 .resultados .resultado {
   padding: 12px 0;
   border-bottom: 1px solid #ddd;
+  display: grid;
+  gap: 10px;
 }
-.resultados .resultado h3 {
+.resultados .resultado h3 a {
   color: #1a0dab;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.resultados .resultado ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+.resultados .resultado ul li {
+  padding: 5px;
+  background-color: #f8f8f8;
+  border: #ddd 1px solid;
+  border-radius: 150px;
+  text-align: center;
+  font-size: 0.7rem;
 }
 .resultados .resultado p {
   font-size: 0.9rem;
   color: #4d5156;
+}
+.resultados .resultado section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+.resultados .resultado section div a {
+  text-decoration: none;
+  color: #1a0dab;
 }
 
 aside {
@@ -104,6 +146,8 @@ aside .tarjeta {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  position: sticky;
+  top: 10%;
 }
 aside .tarjeta h4 {
   font-size: 1rem;

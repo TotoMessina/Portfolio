@@ -11,7 +11,8 @@ body {
 }
 
 .container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 60% 40%;
   max-width: 1200px;
   margin: 0 auto;
   padding: $padding;
@@ -23,5 +24,6 @@ main {
 }
 
 aside {
-  width: $ancho-sidebar;
+  width: 100%;
+  height: auto;
 }

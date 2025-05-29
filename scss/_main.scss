@@ -22,15 +22,42 @@ nav {
   .resultado {
     padding: 12px 0;
     border-bottom: 1px solid $color-borde;
+    display: grid;
+    gap: 10px;
 
-    h3 {
+    h3 a {
       color: #1a0dab;
-      font-size: 1rem;
+      font-size: 1.5rem;
+      text-decoration: none;
+    }
+
+    ul {
+      display: 	flex;
+      list-style: none;
+      gap: 10px;
+      li{
+        padding: 5px;
+        background-color: #f8f8f8;
+        border: $color-borde 1px solid;
+        border-radius: 150px;
+        text-align: center;
+        font-size: 0.7rem;
+      }
     }
 
     p {
       font-size: 0.9rem;
       color: #4d5156;
+    }
+
+    section {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 5px;
+      div a {
+        text-decoration: none;
+        color: #1a0dab;
+      }
     }
   }
 }

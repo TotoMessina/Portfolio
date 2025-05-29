@@ -1,8 +1,8 @@
 const options = [
     { name: "Proyectos", url: "/pages/proyectos.html" },
-    { name: "Referencias", url: "referencias.html" },
-    { name: "Experiencia", url: "experiencia.html" },
-    { name: "Educación", url: "educacion.html" }
+    { name: "Referencias", url: "/pages/referencias.html" },
+    { name: "Experiencia", url: "/pages/experiencia.html" },
+    { name: "Educación", url: "/pages/educacion.html" }
 ];
 
 const input = document.getElementById("search");
