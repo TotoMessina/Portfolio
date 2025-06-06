@@ -1,0 +1,43 @@
+{
+  "experiencia": [
+    {
+      "cargo": "Desarrollador Frontend",
+      "empresa": "Tech Solutions",
+      "periodo": "2022 - Presente",
+      "descripcion": "Desarrollo de aplicaciones web utilizando React, TypeScript y Material-UI.",
+      "responsabilidades": [
+        "Desarrollo de componentes reutilizables",
+        "Implementación de nuevas funcionalidades",
+        "Optimización de rendimiento",
+        "Colaboración con el equipo de diseño"
+      ],
+      "tecnologias": ["React", "TypeScript", "Material-UI", "Git", "Jest"]
+    },
+    {
+      "cargo": "Desarrollador Web Junior",
+      "empresa": "Digital Innovations",
+      "periodo": "2021 - 2022",
+      "descripcion": "Desarrollo de sitios web y aplicaciones web responsivas.",
+      "responsabilidades": [
+        "Maquetación de interfaces",
+        "Implementación de funcionalidades JavaScript",
+        "Integración con APIs",
+        "Mantenimiento de sitios existentes"
+      ],
+      "tecnologias": ["HTML5", "CSS3", "JavaScript", "jQuery", "Bootstrap"]
+    },
+    {
+      "cargo": "Pasante de Desarrollo",
+      "empresa": "StartUp Tech",
+      "periodo": "2020 - 2021",
+      "descripcion": "Colaboración en el desarrollo de aplicaciones web y móviles.",
+      "responsabilidades": [
+        "Asistencia en el desarrollo de features",
+        "Testing de aplicaciones",
+        "Documentación de código",
+        "Resolución de bugs"
+      ],
+      "tecnologias": ["HTML", "CSS", "JavaScript", "React Native", "Git"]
+    }
+  ]
+} 

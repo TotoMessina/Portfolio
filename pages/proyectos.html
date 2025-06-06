@@ -38,117 +38,8 @@
 
   <div class="container">
     <main>
-      <div class="resultados">
-        <div class="resultado">
-          <h3><a href="https://tot-bot.vercel.app">TOT-BOT</a></h3>
-          <ul>
-            <li>IA</li>
-            <li>JavaScript</li>
-            <li>HTML5</li>
-          </ul>
-          <p>Una IA que funciona de forma local y gratuita con privacidad 100% usando tu PC como servidor.</p>
-          <section>
-            <div>
-              <a href="">Repositorio</a>
-              <p>Direccion del repositorio de la pagina web en Github</p>
-            </div>
-            <div>
-              <a href="">Instagram</a>
-              <p>Red Social del proyecto donde se muestran las funcionalidades</p>
-            </div>
-            <div>
-              <a href="">REPOSITORIO GITHUB</a>
-              <p>Repositorio utilizado para extraer el modelo de IA utilizado</p>
-            </div>
-          </section>
-        </div>
-                <div class="resultado">
-          <h3><a href="https://torneo-tenis-prados.vercel.app">Liga de Tenis PdO</a></h3>
-          <ul>
-            <li>GoogleSheet API</li>
-            <li>JavaScript</li>
-            <li>CSS3</li>
-            <li>HTML5</li>
-            <li>Responsive Design</li>
-          </ul>
-          <p>Una plataforma web para mostrar los resultados de partidos cargados en Google Sheets  y hacer un seguimiento de las fechas del torneo.</p>
-          <section>
-            <div>
-              <a href="">Repositorio</a>
-              <p>Direccion del repositorio de la pagina web en Github</p>
-            </div>
-            <div>
-              <a href="">GoogleSheet API</a>
-              <p>API utilizada para realizar el proyecto</p>
-            </div>
-          </section>
-        </div>
-        <div class="resultado">
-          <h3><a href="https://promodevs.vercel.app">PromoDevs</a></h3>
-          <ul>
-            <li>JavaScript</li>
-            <li>CSS3</li>
-            <li>HTML5</li>
-            <li>Responsive Design</li>
-          </ul>
-          <p>Una plataforma web para mostrar juegos interactivos disenados para acciones promocionales, donde los usuarios pueden divertirse y ganar premios con la idea de atraer y fidelizar clientes.</p>
-          <section>
-            <div>
-              <a href="">Repositorio</a>
-              <p>Direccion del repositorio de la pagina web en Github</p>
-            </div>
-            <div>
-              <a href="">Instagram</a>
-              <p>Red Social del proyecto donde se muestran las funcionalidades</p>
-            </div>
-          </section>
-        </div>
-        <div class="resultado">
-          <h3><a href="https://noche-de-peliculas.vercel.app">Movie Night</a></h3>
-          <ul>
-            <li>TMDB</li>
-            <li>JavaScript</li>
-            <li>CSS3</li>
-            <li>HTML5</li>
-            <li>Responsive Design</li>
-          </ul>
-          <p>Una aplicacion web minimalista, al estilo Netflix, para buscar peliculas utilizando la API de The Movie Database (TMDB)</p>
-          <section>
-            <div>
-              <a href="">Repositorio</a>
-              <p>Direccion del repositorio de la pagina web en Github</p>
-            </div>
-            <div>
-              <a href="">Instagram</a>
-              <p>Red Social del proyecto donde se muestran las funcionalidades</p>
-            </div>
-            <div>
-              <a href="">TMDB</a>
-              <p>API utilizada para realizar el proyecto</p>
-            </div>
-          </section>
-        </div>
-        <div class="resultado">
-          <h3><a href="https://to-do-list-snowy-omega.vercel.app">To-Do List</a></h3>
-          <ul>
-            <li>JSONBin.io API</li>
-            <li>JavaScript</li>
-            <li>CSS3</li>
-            <li>HTML5</li>
-          </ul>
-          <p>Una lista de que haceres distinta a lo comun ya que se almacena en un json que se actualiza con cada carga pudiendose visualizarse asi desde cualquier dispositivo.</p>
-          <section>
-            <div>
-              <a href="">Repositorio</a>
-              <p>Direccion del repositorio de la pagina web en Github</p>
-            </div>
-            <div>
-            <div>
-              <a href="">JSONBin.io API</a>
-              <p>API utilizada para realizar el proyecto</p>
-            </div>
-          </section>
-        </div>
+      <div class="resultados" id="proyectos-container">
+        <!-- Los proyectos se cargarán dinámicamente aquí -->
       </div>
     </main>
 
@@ -170,23 +61,7 @@
     </aside>
   </div>
 
-    <script>
-        function calcularEdad(fechaNacimiento) {
-            const hoy = new Date();
-            const nacimiento = new Date(fechaNacimiento);
-            let edad = hoy.getFullYear() - nacimiento.getFullYear();
-            const mes = hoy.getMonth() - nacimiento.getMonth();
-            
-            if (mes < 0 || (mes === 0 && hoy.getDate() < nacimiento.getDate())) {
-            edad--;
-            }
-            
-            return edad;
-        }
-
-        const fechaNacimiento = '2003-02-03';
-
-        document.getElementById('edad').textContent = calcularEdad(fechaNacimiento);
-    </script>
+  <script src="/js/config.js"></script>
+  <script src="/js/contenido.js"></script>
 </body>
 </html>

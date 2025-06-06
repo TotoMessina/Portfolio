@@ -1,0 +1,92 @@
+{
+  "proyectos": [
+    {
+      "titulo": "TOT-BOT",
+      "url": "https://tot-bot.vercel.app",
+      "tecnologias": ["IA", "JavaScript", "HTML5"],
+      "descripcion": "Una IA que funciona de forma local y gratuita con privacidad 100% usando tu PC como servidor.",
+      "enlaces": [
+        {
+          "texto": "Repositorio",
+          "descripcion": "Direccion del repositorio de la pagina web en Github"
+        },
+        {
+          "texto": "Instagram",
+          "descripcion": "Red Social del proyecto donde se muestran las funcionalidades"
+        },
+        {
+          "texto": "REPOSITORIO GITHUB",
+          "descripcion": "Repositorio utilizado para extraer el modelo de IA utilizado"
+        }
+      ]
+    },
+    {
+      "titulo": "Liga de Tenis PdO",
+      "url": "https://torneo-tenis-prados.vercel.app",
+      "tecnologias": ["GoogleSheet API", "JavaScript", "CSS3", "HTML5", "Responsive Design"],
+      "descripcion": "Una plataforma web para mostrar los resultados de partidos cargados en Google Sheets  y hacer un seguimiento de las fechas del torneo.",
+      "enlaces": [
+        {
+          "texto": "Repositorio",
+          "descripcion": "Direccion del repositorio de la pagina web en Github"
+        },
+        {
+          "texto": "GoogleSheet API",
+          "descripcion": "API utilizada para realizar el proyecto"
+        }
+      ]
+    },
+    {
+      "titulo": "PromoDevs",
+      "url": "https://promodevs.vercel.app",
+      "tecnologias": ["JavaScript", "CSS3", "HTML5", "Responsive Design"],
+      "descripcion": "Una plataforma web para mostrar juegos interactivos disenados para acciones promocionales, donde los usuarios pueden divertirse y ganar premios con la idea de atraer y fidelizar clientes.",
+      "enlaces": [
+        {
+          "texto": "Repositorio",
+          "descripcion": "Direccion del repositorio de la pagina web en Github"
+        },
+        {
+          "texto": "Instagram",
+          "descripcion": "Red Social del proyecto donde se muestran las funcionalidades"
+        }
+      ]
+    },
+    {
+      "titulo": "Movie Night",
+      "url": "https://noche-de-peliculas.vercel.app",
+      "tecnologias": ["TMDB", "JavaScript", "CSS3", "HTML5", "Responsive Design"],
+      "descripcion": "Una aplicacion web minimalista, al estilo Netflix, para buscar peliculas utilizando la API de The Movie Database (TMDB)",
+      "enlaces": [
+        {
+          "texto": "Repositorio",
+          "descripcion": "Direccion del repositorio de la pagina web en Github"
+        },
+        {
+          "texto": "Instagram",
+          "descripcion": "Red Social del proyecto donde se muestran las funcionalidades"
+        },
+        {
+          "texto": "TMDB",
+          "descripcion": "API utilizada para realizar el proyecto"
+        }
+      ]
+    },
+    {
+      "titulo": "To-Do List",
+      "url": "https://to-do-list-snowy-omega.vercel.app",
+      "tecnologias": ["JSONBin.io API", "JavaScript", "CSS3", "HTML5"],
+      "descripcion": "Una lista de que haceres distinta a lo comun ya que se almacena en un json que se actualiza con cada carga pudiendose visualizarse asi desde cualquier dispositivo.",
+      "enlaces": [
+        {
+          "texto": "Repositorio",
+          "descripcion": "Direccion del repositorio de la pagina web en Github"
+        },
+        {
+          "texto": "JSONBin.io API",
+          "descripcion": "API utilizada para realizar el proyecto"
+        }
+      ]
+    }
+  ]
+} 

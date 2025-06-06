@@ -1,0 +1,38 @@
+{
+  "educacion": [
+    {
+      "titulo": "Ingeniería en Sistemas",
+      "institucion": "Universidad Tecnológica Nacional",
+      "periodo": "2021 - Presente",
+      "estado": "En curso",
+      "descripcion": "Carrera de grado en Ingeniería en Sistemas de Información. Actualmente cursando el tercer año.",
+      "logros": [
+        "Promedio general: 8.5",
+        "Beca por mérito académico",
+        "Participación en proyectos de investigación"
+      ]
+    },
+    {
+      "titulo": "Desarrollo Web Full Stack",
+      "institucion": "Digital House",
+      "periodo": "2022",
+      "estado": "Completado",
+      "descripcion": "Bootcamp intensivo de desarrollo web full stack con enfoque en JavaScript, React, Node.js y bases de datos.",
+      "logros": [
+        "Proyecto final destacado",
+        "Certificación en metodologías ágiles"
+      ]
+    },
+    {
+      "titulo": "Bachiller en Informática",
+      "institucion": "Escuela Técnica N°1",
+      "periodo": "2015 - 2020",
+      "estado": "Completado",
+      "descripcion": "Educación secundaria con orientación en informática y programación.",
+      "logros": [
+        "Primer puesto en olimpiadas de programación",
+        "Proyecto de automatización escolar destacado"
+      ]
+    }
+  ]
+} 

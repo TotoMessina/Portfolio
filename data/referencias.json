@@ -1,0 +1,31 @@
+{
+  "referencias": [
+    {
+      "nombre": "Juan Pérez",
+      "cargo": "Senior Developer",
+      "empresa": "Tech Solutions",
+      "telefono": "+54 11 1234-5678",
+      "email": "juan.perez@techsolutions.com",
+      "relacion": "Ex Supervisor",
+      "descripcion": "Trabajé bajo su supervisión durante 2 años en el desarrollo de aplicaciones web."
+    },
+    {
+      "nombre": "María García",
+      "cargo": "Project Manager",
+      "empresa": "Digital Innovations",
+      "telefono": "+54 11 8765-4321",
+      "email": "maria.garcia@digitalinnovations.com",
+      "relacion": "Ex Colega",
+      "descripcion": "Colaboramos en varios proyectos de desarrollo frontend durante 1 año."
+    },
+    {
+      "nombre": "Carlos Rodríguez",
+      "cargo": "CTO",
+      "empresa": "StartUp Tech",
+      "telefono": "+54 11 5555-6666",
+      "email": "carlos.rodriguez@startuptech.com",
+      "relacion": "Mentor",
+      "descripcion": "Me ha guiado en el desarrollo de habilidades técnicas y liderazgo."
+    }
+  ]
+} 
